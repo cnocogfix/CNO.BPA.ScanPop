@@ -1,0 +1,18 @@
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\bin\x86\Debug\CNO.BPA.ScanPop.dll.config
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\bin\x86\Debug\CNO.BPA.ScanPop.dll
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\bin\x86\Debug\CNO.BPA.ScanPop.pdb
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\bin\x86\Debug\Emc.InputAccel.QuickModule.ClientScriptingInterface.dll
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\bin\x86\Debug\Emc.InputAccel.ScanPlus.ScriptingInterface.dll
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.csprojResolveAssemblyReference.cache
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.BatchInfo.resources
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.BatchNotify.resources
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.CustomDepartmentEditor.resources
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.CustomParameterEditor1.resources
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.BatchIssues.resources
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.Properties.Resources.resources
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.csproj.GenerateResource.Cache
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.dll
+D:\Source\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\obj\x86\Debug\CNO.BPA.ScanPop.pdb
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.ScanPop.dll.config
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.ScanPop.dll
+D:\CaptureSystem\CNO Captiva Capture System\bin\CNO.BPA.ScanPop.pdb

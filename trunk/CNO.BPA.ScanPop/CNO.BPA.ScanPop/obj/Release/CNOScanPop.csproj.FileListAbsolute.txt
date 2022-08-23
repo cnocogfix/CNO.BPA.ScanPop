@@ -1,0 +1,9 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\bin\Release\CNO.BPA.ScanPop.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\bin\Release\CNO.BPA.ScanPop.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\bin\Release\Emc.InputAccel.QuickModule.ClientScriptingInterface.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\bin\Release\Emc.InputAccel.ScanPlus.ScriptingInterface.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\obj\Release\CNO.BPA.ScanPop.BatchInfo.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\obj\Release\CNOScanPop.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\obj\Release\CNO.BPA.ScanPop.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\CNOScanPop\CNOScanPop\obj\Release\CNO.BPA.ScanPop.pdb

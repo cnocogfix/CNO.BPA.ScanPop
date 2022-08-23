@@ -1,0 +1,34 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 3892-3FCB
+
+ Directory of C:\Users\COG70U\source\repos\Scan\CNO.BPA.ScanPop\trunk\CNO.BPA.ScanPop\CNO.BPA.ScanPop\bin\Debug
+
+05/13/2022  04:58 PM    <DIR>          .
+05/13/2022  04:58 PM    <DIR>          ..
+05/13/2022  04:56 PM            60,928 CNO.BPA.ScanPop.dll
+05/13/2022  04:36 PM             1,781 CNO.BPA.ScanPop.dll.config
+05/13/2022  04:56 PM           103,936 CNO.BPA.ScanPop.pdb
+10/26/2021  05:34 AM            14,848 Emc.InputAccel.QuickModule.ClientScriptingInterface.dll
+10/26/2021  06:11 AM            10,752 Emc.InputAccel.ScanPlus.ScriptingInterface.dll
+10/22/2021  07:42 PM            22,144 Microsoft.Bcl.AsyncInterfaces.dll
+10/22/2021  07:42 PM            18,215 Microsoft.Bcl.AsyncInterfaces.xml
+04/16/2022  01:20 PM         4,632,320 Oracle.ManagedDataAccess.dll
+05/13/2022  04:58 PM                 0 scanfiles.txt
+02/19/2020  06:05 AM            20,856 System.Buffers.dll
+02/19/2020  06:05 AM             3,481 System.Buffers.xml
+02/19/2020  06:05 AM           141,184 System.Memory.dll
+02/19/2020  06:05 AM            13,950 System.Memory.xml
+05/15/2018  09:29 AM           115,856 System.Numerics.Vectors.dll
+05/15/2018  09:29 AM           183,484 System.Numerics.Vectors.xml
+10/22/2021  07:40 PM            18,024 System.Runtime.CompilerServices.Unsafe.dll
+10/19/2021  03:14 AM            20,529 System.Runtime.CompilerServices.Unsafe.xml
+10/22/2021  07:41 PM            76,904 System.Text.Encodings.Web.dll
+10/19/2021  03:14 AM            62,941 System.Text.Encodings.Web.xml
+10/22/2021  07:44 PM           513,128 System.Text.Json.dll
+10/19/2021  03:14 AM           457,799 System.Text.Json.xml
+02/19/2020  06:05 AM            25,984 System.Threading.Tasks.Extensions.dll
+02/19/2020  06:05 AM            10,147 System.Threading.Tasks.Extensions.xml
+05/15/2018  09:29 AM            25,232 System.ValueTuple.dll
+05/15/2018  09:29 AM               142 System.ValueTuple.xml
+              25 File(s)      6,554,565 bytes
+               2 Dir(s)  12,489,445,376 bytes free

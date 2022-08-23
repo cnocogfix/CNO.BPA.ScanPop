@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D8F996B4-5E1D-4CC0-BB35-C67543B3D130}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CNO.BPA.ScanPop</RootNamespace>
+    <AssemblyName>CNO.BPA.ScanPop</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emc.InputAccel.QuickModule.ClientScriptingInterface, Version=6.0.0.0, Culture=neutral, PublicKeyToken=2d142e753fe0d8cf, processorArchitecture=x86" />
+    <Reference Include="Emc.InputAccel.ScanPlus.ScriptingInterface, Version=6.0.0.0, Culture=neutral, PublicKeyToken=2d142e753fe0d8cf, processorArchitecture=x86" />
+    <Reference Include="Emc.InputAccel.ScriptEngine.Scripting, Version=6.0.0.0, Culture=neutral, PublicKeyToken=2d142e753fe0d8cf, processorArchitecture=x86" />
+    <Reference Include="Emc.InputAccel.Workflow.Client, Version=6.0.0.0, Culture=neutral, PublicKeyToken=2d142e753fe0d8cf, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\InputAccel\Client\binnt\Emc.InputAccel.Workflow.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BatchDetail.cs" />
+    <Compile Include="BatchInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchInfo.Designer.cs">
+      <DependentUpon>BatchInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatchNotify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchNotify.Designer.cs">
+      <DependentUpon>BatchNotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomDepartmentEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomDepartmentEditor.Designer.cs">
+      <DependentUpon>CustomDepartmentEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomParameterEditor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomParameterEditor1.Designer.cs">
+      <DependentUpon>CustomParameterEditor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomParameterEditorController.cs" />
+    <Compile Include="CustomParameters.cs" />
+    <Compile Include="DataHandler\DataAccess.cs" />
+    <Compile Include="DataHandler\Utilities.cs" />
+    <Compile Include="DTPickerOverride.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Framework\Cryptography.cs" />
+    <Compile Include="BatchIssues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchIssues.Designer.cs">
+      <DependentUpon>BatchIssues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScanPlusEvents.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScanPlusTaskEvents.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BatchInfo.resx">
+      <DependentUpon>BatchInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchNotify.resx">
+      <DependentUpon>BatchNotify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomDepartmentEditor.resx">
+      <DependentUpon>CustomDepartmentEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomParameterEditor1.resx">
+      <DependentUpon>CustomParameterEditor1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchIssues.resx">
+      <DependentUpon>BatchIssues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightArrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\LeftArrow.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
